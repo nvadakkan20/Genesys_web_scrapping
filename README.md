@@ -20,7 +20,7 @@ The Project is done within the Jupiter notebook, each line of code can be tested
 
 4. **Parse HTML Content**: The fetched HTML content is parsed using `BeautifulSoup`.
 
-5. **Extract Story Links**: Customer story links are extracted from the parsed HTML content based on specific product criteria (i.e Genesys Cloud products). For that purpose the links are extracted only for 'Genesys Cloud' and 'Genesys Cloud ex' product categories.
+5. **Extract Story Links**: Customer story links are extracted from the parsed HTML content based on specific product criteria (i.e Genesys Cloud products). For that purpose the links are extracted only for '**`Genesys Cloud`**' and '**`Genesys Cloud ex`**' product categories.
 The extracted links are then stored in the `story_links` variable.
 
 6. **Extract Data from Each Story**: For each customer story link, the page content is fetched and parsed. Relevant details such as customer name, industry, location, partners, author name, and author designation are extracted. These details are stored in the `data` variable.
